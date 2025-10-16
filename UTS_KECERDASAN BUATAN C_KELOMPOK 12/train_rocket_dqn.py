@@ -14,7 +14,6 @@ import torch as th
 import torch.nn as nn
 from stable_baselines3.dqn.policies import DQNPolicy
 
-# Try to import PrioritizedReplayBuffer from sb3_contrib 
 USE_PER_AVAILABLE = False
 PrioritizedReplayBuffer = None
 try:
@@ -456,3 +455,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
